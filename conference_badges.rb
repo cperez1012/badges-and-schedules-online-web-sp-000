@@ -13,7 +13,7 @@ end
 def assign_rooms(attendees)
   room_assignments = []
   attendees.each_with_index { |speaker, room_assignments| }
-    room_assignments[speaker] = index
+    room_assignments[speaker] = room_assignments
 end
 
 def printer
