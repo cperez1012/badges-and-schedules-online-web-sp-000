@@ -10,8 +10,10 @@ def batch_badge_creator(attendees)
     return badges
 end
 
-def assign_rooms(messages, room_assignments)
-
+def assign_rooms(attendees)
+  room_assignments = []
+  attendees.each_with_index { |speaker, index| }
+    room_assignments[speaker] = index
 end
 
 def printer
